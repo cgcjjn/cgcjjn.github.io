@@ -119,13 +119,23 @@
   #project-section .project-menu ul li {font-size: 14px;margin: 15px 2px 0;border-bottom: 1px solid #fff;}
   #team-section .team-member-wrapper .single-team-member .img .opacity span {margin: 5px 0;}
   #team-section .team-member-wrapper .single-team-member .member-name ul li a {width: 40px;line-height: 38px;}
-  .banner h1 {font-size: 35px;}
+  /*.banner h1 {font-size: 20px;}*/
+  /*.banner h6 {font-size: 12px;}*/
   .blog-details-post-wrapper .comment-area .single-comment.reply-comment {margin-left: 60px;}
 }
 
 @media (max-width: 430px) {
-  .banner h1 {font-size: 27px;}
-  .banner h6 {font-size: 14px;}
+  /*.banner h1 {font-size: 16px;}*/
+  /*.banner h6 {font-size: 8px;}*/
   .hermes.tparrows {display: none;}
   .recent-single-post .post {width: 100%;padding: 12px 0 0 0;}
+}
+
+.cgc1 {
+  font-size: calc(18px + (48 - 18) * ((100vw - 600px) / (3600 - 600)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 600px)/(3600 - 600)));
+}
+.cgc2 {
+  font-size: calc(6px + (24 - 6) * ((100vw - 300px) / (3600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(3600 - 300)));
 }
