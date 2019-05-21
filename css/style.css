@@ -1759,3 +1759,12 @@ footer p {
 .blog-details-post-wrapper .post-comment form button:hover {
   background:#fff;
 }
+
+.cgc1 {
+    font-size: calc(20px + (48 - 20) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+.cgc2 {
+    font-size: calc(12px + (18 - 12) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
