@@ -132,10 +132,10 @@
 }
 
 .cgc1 {
-  font-size: calc(18px + (48 - 18) * ((100vw - 600px) / (3600 - 600)));
+  font-size: calc(22px + (48 - 22) * ((100vw - 600px) / (3600 - 600)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 600px)/(3600 - 600)));
 }
 .cgc2 {
-  font-size: calc(6px + (24 - 6) * ((100vw - 300px) / (3600 - 300)));
+  font-size: calc(12px + (24 - 12) * ((100vw - 300px) / (3600 - 300)));
   line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(3600 - 300)));
 }
