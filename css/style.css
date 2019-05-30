@@ -425,6 +425,9 @@ animation-delay: .8s;
   border-width: 1px;
   text-transform: uppercase;
 }
+
+.responsive {    display: grid;    grid-gap: 5px;    grid-template-columns: repeat(auto-fit, 100px);    grid-template-rows: repeat(2, 100px);}
+
 /*** 
 
 ====================================================================
