@@ -568,9 +568,7 @@ animation-delay: .8s;
     .timeline > li.timeline-inverted > .timeline-panel {
         padding: 0 100px 20px 20px; } }
 
-.rounded-circle {
-    border-radius: 50% !important;
-}
+
 /*** 
 
 ====================================================================
@@ -971,13 +969,45 @@ animation-delay: .8s;
        -o-transform: translate3D(0,100px,0);
           transform: translate3D(0,100px,0);
 }
-#team-section .team-member-wrapper .single-team-member:hover .member-name ul {
-  -webkit-transform: translate3D(0,0,0);
-     -moz-transform: translate3D(0,0,0);
-      -ms-transform: translate3D(0,0,0);
-       -o-transform: translate3D(0,0,0);
-          transform: translate3D(0,0,0);
-}
+
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center; }
+.team-member img {
+    width: 250px;
+    height: 250px;
+    border: 8px solid #dfdfdf; }
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none; }
+.team-member p {
+    margin-top: 10px;}
+
+ul.social-buttons {
+    margin-bottom: 0;
+    margin-top: 10px;}
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #212529; }
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #EEB42C; }
+
+.mx-auto{margin-right:auto!important}
+.mx-auto{margin-left:auto!important}
+
+.rounded-circle{border-radius:50%!important}
 
 /*** 
 
@@ -1790,4 +1820,5 @@ footer p {
 .blog-details-post-wrapper .post-comment form button:hover {
   background:#fff;
 }
+
 
